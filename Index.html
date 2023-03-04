@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Styles.css">
+    <link rel="icon" type="image/x-icon" href="./Imagenes/16.png">
+    <title>Airlike</title>
+</head>
+<body>
+
+    <div class="modal" id="modal">
+        <div class="modal-container">
+            <div class="btn-close" id="close-modal"><span>X</span></div>
+            <form class="modal-form">
+
+                <div class="modal-info modal-select">
+                    <select class="select-modal">
+                    <option>
+                        Vuelos
+                    </option>
+
+                    <option>
+                        Cruceros
+                    </option>
+
+                    <option>
+                        Hoteles
+                    </option>
+                    </select>
+                    <label class="label-modal">Ida</label>
+                    <input class="select-modal" type="date" required/>
+                    <label class="label-modal">Regreso</label>
+                    <input class="select-modal" type="date" required/>
+                </div>
+                <div class="modal-info modal-input">
+                    <label class="label-modal">Destino</label>
+                    <input class="input-modal" type="text" placeholder="Destino..." required/>
+                    <label class="label-modal">Enviar información al siguiente correo</label>
+                    <input class="input-modal" type="email" placeholder="@gmail.com..." required/>
+                    <button class="btn-modal" id="btn-modal">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <header>
+            <ul class="container-list container-info">
+                <li class="list-items"><img src="./Iconos/Casa.svg" class="img-list"/><p class="header_text-list">Nueva Esparta, La Asunción</p></li>
+                <li class="list-items"><img src="./Iconos/phone.png" class="img-list"/><p class="header_text-list">+58 412-3512506</p></li>
+                <li class="list-items"><img src="./Iconos/Calendario.png" class="img-list"/><p class="header_text-list date"></p></li>
+            </ul>
+            <ul class="container-list container-info">
+                <li><a href="https://www.facebook.com/profile.php?id=100068846473262" class="list-items"><img src="./Iconos/facebook.svg" class="img-list"/><p class="header_text-list">Facebook</p></a></li>
+                <li><a class="list-items" href="https://twitter.com/GiannyMacr1"><img src="./Iconos/twitter.svg" class="img-list"/><p class="header_text-list">Twitter</p></a></li>
+                <li><a href="https://www.instagram.com/macrigianny/?next=%2F" class="list-items"><img src="./Iconos/instagram.svg" class="img-list"/><p class="header_text-list">Instagram</p></a></li>
+            </ul>
+    </header>
+
+    <nav>
+        <div class="container-title">
+            <img src="./Imagenes/16.png" class="img-title"/>
+            <h2>Airlike</h2>
+        </div>
+        <div class="div-options">
+            <ul class="list-options">
+                <li class="options"><a href="#Index.html" class="btn-options">Home</a></li>
+                <li class="options"><a href="#services" class="btn-options">Servicios</a></li>
+                <li class="options"><a href="#parallax" class="btn-options">¿Quienes Somos?</a></li>
+                <li class="options" id="open-modal"><a class="btn-options" >Solicitud</a></li>
+                <li class="options"><a href="#contacto" class="btn-options">Contáctanos</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+<!--Inicio del bloque de codigo para las modales de información-->
+
+
+
+<!--Cierre del bloque de codigo para las modales de información-->
+
+    <main>
+
+
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1"/>
+                <input type="radio" name="radio-btn" id="radio2"/>
+                <input type="radio" name="radio-btn" id="radio3"/>
+                <input type="radio" name="radio-btn" id="radio4"/>
+
+                <!--Comienza los slide-->
+
+                <div class="slide first">
+                        <img src="./Imagenes/3.jpg" alt="">
+
+                </div>
+
+                <div class="slide">
+                    <img src="./Imagenes/15.jpg" alt="">
+
+                </div>
+
+                <div class="slide">
+                    <img src="./Imagenes/13.jpg" alt="">
+
+                </div>
+                
+                <div class="slide">
+                    <img src="./Imagenes/10.jpg" alt="">
+                </div>
+                
+                <!--Terminan los slide-->
+
+            </div>
+
+                <!--Inicio Manual-->
+
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                
+                 <!--Fin Manual-->
+
+                <!--Inicio Automatización-->
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+                <!--Fin Automatización-->
+            
+        </div>
+
+        <div class="services"  id="services" name="services">
+            <h2 class="services-title">Servicios</h2>
+            <div class="services-cards" >
+            <div class="services-info">
+                <div class="container-img">
+                    <img class="img-services" src="./Imagenes/8.jpg"/>
+                </div>
+                <div class="container-text">                    
+                    <h2 class="title-text">Aereo</h2>
+                    <p class="text-services">Airlike ofrece sus servicios de aerolinea durante todo el año, con la mejor calidad en el mercado, diferentes clases de vuelo disponibles
+                        y los mejores precios en el mercado, volamos las 24/7.
+                    </p>
+                </div>
+            </div>
+
+            <div class="services-info">
+                <div class="container-img">
+                    <img class="img-services" src="./Imagenes/5.jpg"/>
+                </div>
+                <div class="container-text">                    
+                    <h2 class="title-text">Crucero</h2>
+                    <p class="text-services">Airlike te ofrece la oportunidad de una experiencia unica en crucero, con la mayor variedad de opciones para tu comodidad, ¡ven y disfruta de unas vacaciones unicas en familia!</p>
+                </div>
+            </div>
+
+            <div class="services-info" >
+                <div class="container-img">
+                    <img class="img-services" src="./Imagenes/14.jpg"/>
+                </div>
+                <div class="container-text">
+                    <h2 class="title-text">Hoteles</h2>
+                    <p class="text-services">En Airlike nos preocupamos por tu comodidad, es por ello que te ayudamos a ubicar los mejores hoteles en el area de tu destino en caso de que lo desees, ¡tenemos aliados en más de 20 paises!</p>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+        <div class="container-parallax" id="parallax" >
+            <h2 class="container__title-parallax">¿Porque Elegirnos?</h2>
+            <div class="parallax">
+            </div>
+            <div class="desc">
+                <h2 class="desc_text">Los mejores destinos para ti</h2>
+                <p class="desc_text">
+                    Tenemos para ti una serie de destinos de acuerdo a tu gustos, si estás buscando pasar unas vacaciones en areas naturales o si prefieres conocer una ciudad,
+                    nos adaptamos a tus deseos y te ofrecemos la mejor opción para ti.
+                </p>
+            </div>
+
+
+            <div class="parallax parallax--second">
+
+            </div>
+            <div class="desc">
+                <h2 class="desc_text">Comodidad y calidad</h2>
+                <p class="desc_text">
+                    Pensando en tu experiencia, Airlike se encarga de ofrecerte la posibilidad de reservar en los mejores hoteles a la hora de comprar tus boletos, con las mejores opciones de acuerdo a tu presupuesto.
+                </p>
+            </div>
+
+            <div class="parallax parallax--third" id="parallax3">
+            </div>
+            <div class="desc">
+                <h2 class="desc_text">¡Viajamos a cualquier parte!</h2>
+                <p class="desc_text">
+                    Sin importar la dificultad, Airlike te ofrece un amplio catalogo de opciones con la posibilidad de viajar a cualquier país con aeropuerto internacional y a traves de nuestros aliados comerciales, te llevamos a tu destino en caso de que este no tenga aeropuerto internacional.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="form-signUp" id="contacto">
+            <h2 class="title-form">¡Subscribete!</h2>
+            <p class="text-form">Si quieres saber de cualquier novedad,<br> 
+                Subscribete para recibir las ultimas novedades en tu correo.</p>
+            <form class="container-form">
+                <input class="input-form" type="email" placeholder="suscribir@gmail.com..." required/>
+                <button class="button-form"><img src="./Iconos/check.svg" class="img-form"></img><p class="text-btn">Suscribirse</p></button>
+            </form>    
+        </div>
+
+        <footer>
+            <div class="info-footer">
+                <h2 class="title-footer">Airlike</h2>
+                <p class="text-footer">Airlike es una empresa del sector de turismo, con disponibilidad de movilización por via maritima y aerea. <br> Fundada en 2022 con sede principal en la isla de Margarita, Nueva Esparta.</p>
+                <ul class="container-footer">
+                    <li><a href="https://wa.me/14123512506"><img src="./Iconos/WS.svg" class="img-footer"/></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100068846473262"><img src="./Iconos/facebook2.svg" class="img-footer"/></a></li>
+                    <li><a href="https://www.instagram.com/macrigianny/?next=%2F"><img src="./Iconos/ig2.svg" class="img-footer"/></a></li>
+                    <li><a href="https://twitter.com/GiannyMacr1"><img src="./Iconos/twitter2.svg" class="img-footer"/></a></li>
+                </ul>
+            </div>
+            <div class="text2-footer">
+                <p>Derechos Reservados 2022.</p>
+            </div>
+        </footer>
+    </main>
+    <script src="./JS/Script.js"></script>
+    <script type="text/javascript">
+
+const dateElement = document.querySelector(".date");
+
+function formatDate(date) {
+  const DAYS = [
+    "Domingo",
+    "Lunes",
+    "Martes",
+    "Miércoles",
+    "Jueves",
+    "Viernes",
+    "Sábado"
+  ];
+  const MONTHS = [
+    "Enero",
+    "Febrero",
+    "Marzo",
+    "Abril",
+    "Mayo",
+    "Junio",
+    "Julio",
+    "Agosto",
+    "Septiembre",
+    "Octubre",
+    "Noviembre",
+    "Diciembre"
+  ];
+
+  return `${DAYS[date.getDay()]}, ${
+    MONTHS[date.getMonth()]
+  } ${date.getDate()} ${date.getFullYear()}`;
+}
+
+setInterval(() => {
+  const now = new Date();
+
+  dateElement.textContent = formatDate(now);
+}, 200);
+
+        var counter=1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked=true;
+            counter++;
+            if(counter > 4){
+                counter=1;
+            }
+        },5000);
+    </script>
+
+</body>
+</html>
